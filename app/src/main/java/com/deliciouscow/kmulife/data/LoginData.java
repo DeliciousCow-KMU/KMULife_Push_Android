@@ -10,4 +10,20 @@ public class LoginData {
     String college;
     String department;
     int grade;
+
+    public String getUser_id() {
+        return this.user_id;
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public String getCollege() {
+        return this.college;
+    }
+
+    public int getGrade() {
+        return  grade;
+    }
 }

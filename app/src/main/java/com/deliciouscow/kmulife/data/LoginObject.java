@@ -5,5 +5,14 @@ package com.deliciouscow.kmulife.data;
  */
 
 public class LoginObject {
+    String status;
     LoginData data;
+
+    public String getStatus() {
+        return this.status;
+    }
+
+    public LoginData getData() {
+        return this.data;
+    }
 }

@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class ServiceGenerator {
 
     private static Retrofit.Builder builder = new Retrofit.Builder()
-                    .baseUrl("https://1zi1pnd5vb.execute-api.ap-northeast-2.amazonaws.com")
+                    .baseUrl("http://1zi1pnd5vb.execute-api.ap-northeast-2.amazonaws.com")
                     .addConverterFactory(GsonConverterFactory.create());
 
     private static OkHttpClient.Builder httpClient = new OkHttpClient.Builder();
